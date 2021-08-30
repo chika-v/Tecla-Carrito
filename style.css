@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body,
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#navegacion {
+    background-image: url('./tinified (1)/fondoazul.jpg') ;
+}
+
+#products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+#fondoBanner {
+    background-image: url('./tinified (1)/forsale.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#banner {
+    font-size: 100;
+    text-align: center;
+    color: white;
+}
+
+.categorias {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub_categoria {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 2rem;
+}
+
+.sub_categoria:hover {
+    cursor: pointer;
+}
